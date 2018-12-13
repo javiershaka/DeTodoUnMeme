@@ -24,31 +24,12 @@
 
 
         <!-- Jumbtron / Slider -->
-
+        <?php include './usuarioLista.php'; ?>
 
 
 
         <!-- Main content area -->
-        <div class="card-container">
-            <div class="container">
-
-                <div class="text-center padded-box pb-0">
-                    <h2>Tendencias</h2>
-
-                </div>
-                <!--aqui empieza el ciclo-->
-
-
-                <!--aqui acaba el for-->
-
-                <div class="padded-box row">
-
-                    <?php include './memeTodos.php'; ?>
-
-                </div>
-
-            </div>
-        </div>
+    
 
 
 

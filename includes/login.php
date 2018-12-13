@@ -1,3 +1,4 @@
+
 <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
 
@@ -15,7 +16,7 @@
                 <form role="form"  method="post" action="index.php">
                     <fieldset>
                         <div class="form-group">
-                            <input class="form-control" placeholder="correo@ejemplo.com" name="email" type="email" autofocus>
+                            <input class="form-control" placeholder="correo@ejemplo.com" name="email" type="email" value="<?php if(isset($_POST['email'])){echo $_POST['email'];} ?>" autofocus>
                         </div>
                         <div class="form-group">
                             <input class="form-control" placeholder="contraseña" name="password" type="password" value="">
@@ -28,13 +29,14 @@
                         <!-- Change this to a button or input when using this as a form -->
 
                     </fieldset>
-                    <a href="index.php"  class="btn btn-lg btn-success btn-block" data-dismiss="modal" >Iniciar session</a>
+                    <button class="btn btn-lg btn-success btn-block" type="submit" name="btns" value="ok"  >Iniciar session</button>
+                    <!--<a href="index.php"  class="btn btn-lg btn-success btn-block" data-dismiss="modal" >Iniciar session</a>-->
                     <!--<a  class="btn btn-lg btn-success btn-block" data-dismiss="modal" >Iniciar session</a>-->
                 </form>
             </div>
-<!--            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>-->
+            <!--            <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>-->
         </div>
 
     </div>

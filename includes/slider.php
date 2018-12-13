@@ -8,7 +8,6 @@
                                 <p class="lead text-center">Registrare es gratis</p>
                                 <p class="lead text-center">
                                     <a class="btn btn-primary btn-lg" href="Registro.php" role="button"><i class="fa fa-info"></i> &nbsp;  Registrate gratis </a>
-                                    <a class="btn btn-secondary btn-lg" href="#" role="button"><i class="fa fa-gbp"></i> &nbsp; Beneficios de tener cuenta</a>
                                 </p>
                             </div>
                         </div>
@@ -18,8 +17,7 @@
                                 <h1 class="text-center">Comparte tus memes</h1>
                                 <p class="lead text-center">Haste famoso haciendo memes z</p>
                                 <p class="lead text-center">
-                                    <a class="btn btn-secondary btn-lg" href="#" role="button"><i class="fa fa-gbp"></i> &nbsp; Registrate gratis</a>
-                                    <a class="btn btn-primary btn-lg" href="#" role="button"><i class="fa fa-info"></i> &nbsp; Beneficios de tener cuenta</a>
+                                    <a class="btn btn-secondary btn-lg" href="Registro.php" role="button"><i class="fa fa-gbp"></i> &nbsp; Registrate gratis</a>
                                 </p>
                             </div>
                         </div>

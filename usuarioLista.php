@@ -17,12 +17,12 @@ if (!$listaUsuarios) {
 
         <table class="table table-hover">
             <tbody><tr>
-                    <th>ID</th>
+<!--                    <th>ID</th>-->
                     <th>Nombre</th>
                     <th>edad</th>
                     <th>sexo</th>
                     <th>correo</th>
-                    <th>contrasena</th>
+                    <!--<th>contrasena</th>-->
                     <th></th>
                     <th>
 
@@ -37,13 +37,13 @@ if (!$listaUsuarios) {
 
 
                     <tr>
-                        <td><?php echo $user->id; ?></td>
+                        <!--<td><?php echo $user->id; ?></td>-->
                         <td><?php echo $user->nombre; ?></td>
                         <td><?php echo $user->correo; ?></td>
                         <td><?php echo $user->sexo; ?></td>
                         <td><?php echo $user->edad; ?></td>
-                        <td><?php echo $user->contrasena; ?></td>
-                        <td><a class="badge bg-green"> 	<i class="fa fa-search"></i> VER</a></td>
+                        <!--<td><?php echo $user->contrasena; ?></td>-->
+                        <!--<td><a class="badge bg-green"> 	<i class="fa fa-search"></i> VER</a></td>-->
                     </tr>
 
                 <?php endforeach; ?>

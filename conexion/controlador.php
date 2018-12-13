@@ -24,11 +24,11 @@ function usuariosControlador() {
 }
 
 
-function loginControlador($correo, $contrasenia) {
+function loginControlador($correos, $contrasenas) {
     $db = new MySQL();
-    $consulta = $db->consulta("SELECT*FROM usuario WHERE correo='" . $correo . "' and contrasenia='" . $contrasenia . "'");
+    $consulta = $db->consulta("SELECT * FROM usuario WHERE correo='".$correos."' and contrasena='".$contrasenas."'");
     $res = $db->filas($consulta);
-    return($res[0]);
+    return ($res[0]);
 }
 function postControlador() {
     $db = new MySQL();

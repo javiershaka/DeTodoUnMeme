@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-primary">
     <div class="container">
 
@@ -20,14 +21,19 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Mas votados</a>
+                    <a class="nav-link" href="usuariosresgit.php">Usuarios gistrados</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Historicos</a>
-                </li>
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias</a>
+                        <div class="dropdown-menu navbar-dark bg-primary">
+                            <a class="dropdown-item" href="examples.php">finales del semestre</a>
+                            <a class="dropdown-item" href="three-column.php">clasicos</a>
+                            <a class="dropdown-item" href="one-column.php">ISW</a>
+                        </div>
+                    </li>
                 <?php
-                if (true) {
+                if (!isset($_POST['btns'])) {
                     ?>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="modal" data-target="#myModal" href="login.php">Iniciar session</a>
