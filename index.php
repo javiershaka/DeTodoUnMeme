@@ -1,4 +1,3 @@
-<?php include './object/usuario.php'; ?>
 <!doctype html>
 <html lang="en">
     <head>
@@ -16,8 +15,8 @@
     </head>
 
     <body>
-        
-  
+
+
         <!-- Main navigation -->
         <?php include ('./includes/navegation.php'); ?>
         <?php include ('./includes/login.php'); ?>
@@ -25,7 +24,7 @@
 
         <!-- Jumbtron / Slider -->
         <?php include ('./includes/slider.php'); ?>
-     
+
 
 
         <!-- Main content area -->
@@ -37,30 +36,14 @@
                     <p class="lead">Esta pagina esta hecha para todo tipos de personas ya sean fanaticos de los memes, personas que solo pasan un rato para ver memes, creadores de memes, calquier pesona que quiera relacionarese con los memes.</p>
 
                 </div>
+                <!--aqui empieza el ciclo-->
+               
 
-
+                <!--aqui acaba el for-->
 
                 <div class="padded-box row">
-                    <?php
-                    for ($var = 3; $var <= 3; $var++) {
-                        include './includes/boxmeme.php';
-                        ?>
-                        <div class="col-md-4">
-                            <div class="card text-center">
-                                <img class="card-img-top" src="images/meme2.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text">Morbi iaculis, justo vitae dignissim aliquam, quam eros vehicula est, facilisis ultrices mi nunc eget lacus.  Sed vitae semper augue. </p>
-                                    <a href="#" class="btn btn-primary">Left link</a>
-                                    <a href="#" class="btn btn-secondary">Right link</a>
-                                </div>
-                            </div>
-                        </div>
-                    <?php } ?>
 
-
-
-
-
+                    <?php include './memeTodos.php'; ?>
                     <div class="col-md-4">
                         <div class="card text-center">
                             <img class="card-img-top" src="images/meme3.gif" alt="Card image cap">
@@ -77,15 +60,7 @@
 
 
                 <div class="padded-box row">
-                    <div class="col-md-4">
-                        <div class="card text-center">
-                            <img class="card-img-top" src="images/meme4.gif" alt="Card image cap">
-                            <div class="card-body">
-                                <blockquote class="card-text">In tristique sem vitae metus ornare luctus tempus nisl volutpat. Integer et est id nisi tempus pharetra sagittis et libero.</blockquote>
-                                <p class="card-text quote-text">- Joe Bloggs, <a href="#">A Company</a></p>
-                            </div>
-                        </div>
-                    </div>
+
 
                     <div class="col-md-4">
                         <div class="card text-center">

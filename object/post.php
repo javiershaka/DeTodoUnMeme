@@ -10,17 +10,17 @@
 class post {
 
     public $id;
-    public $idusuarrio;
+    public $idUsuario;
     public $descripcion;
     public $imagen;
     public $fecha;
     public $etiqueta;
     public $vistas;
 
-    public function __construct($id,$idusuario, $descripcion, $imagen, $fecha, $etiqueta, $vistas) {
+    public function __construct($id,$idUsuario,$descripcion,$imagen,$fecha,$etiqueta,$vistas) {
         
         $this->id=$id;
-        $this->idusuarrio=$idusuario;
+        $this->idUsuario=$idUsuario;
         $this->descripcion=$descripcion;
         $this->imagen=$imagen;
         $this->fecha=$fecha;
